@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>360</width>
-    <height>416</height>
+    <width>550</width>
+    <height>389</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -23,8 +23,12 @@
       <height>251</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgba(236, 101, 80, 1);
+text-shadow: #454545 0 0 2px;</string>
+    </property>
     <property name="title">
-     <string>GroupBox</string>
+     <string>Select Item</string>
     </property>
     <widget class="QWidget" name="verticalLayoutWidget">
      <property name="geometry">
@@ -38,8 +42,17 @@
      <layout class="QVBoxLayout" name="verticalLayout">
       <item>
        <widget class="QRadioButton" name="radioButton_2">
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
         <property name="text">
-         <string>RadioButton</string>
+         <string>Ingress protection</string>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+        <property name="checked">
+         <bool>false</bool>
         </property>
        </widget>
       </item>
@@ -47,6 +60,12 @@
        <widget class="QRadioButton" name="radioButton_4">
         <property name="text">
          <string>RadioButton</string>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+        <property name="checked">
+         <bool>true</bool>
         </property>
        </widget>
       </item>
@@ -60,7 +79,7 @@
       <item>
        <widget class="QRadioButton" name="radioButton">
         <property name="text">
-         <string>RadioButton</string>
+         <string>Explosion protection</string>
         </property>
        </widget>
       </item>
@@ -70,14 +89,42 @@
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>130</x>
-      <y>320</y>
-      <width>87</width>
-      <height>26</height>
+      <x>40</x>
+      <y>290</y>
+      <width>481</width>
+      <height>41</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">float:right;
+margin-right: 3%;
+margin-top: 5px;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+padding: 5px 9px;
+font-size: 1.2em;
+background-color: rgba(236, 101, 80, 1);
+text-shadow: #454545 0 0 2px;
+border-bottom: 4px solid rgba(217, 91, 72, 1);
+color:white;
+font-family: 'Roboto Slab', serif;</string>
     </property>
     <property name="text">
      <string>Go</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="image">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>90</y>
+      <width>181</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
     </property>
    </widget>
   </widget>
@@ -86,7 +133,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>360</width>
+     <width>550</width>
      <height>23</height>
     </rect>
    </property>
