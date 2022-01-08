@@ -137,9 +137,37 @@ font-family: 'Roboto Slab', serif;</string>
      <height>23</height>
     </rect>
    </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="action"/>
+    <addaction name="actionExit"/>
+   </widget>
+   <addaction name="menuFile"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionExit">
+   <property name="icon">
+    <iconset resource="resurses.qrc">
+     <normaloff>:/res/img/exit.png</normaloff>:/res/img/exit.png</iconset>
+   </property>
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+  <action name="action">
+   <property name="icon">
+    <iconset resource="resurses.qrc">
+     <normaloff>:/res/img/developer.png</normaloff>:/res/img/developer.png</iconset>
+   </property>
+   <property name="text">
+    <string>О разработчике</string>
+   </property>
+  </action>
  </widget>
- <resources/>
+ <resources>
+  <include location="resurses.qrc"/>
+ </resources>
  <connections/>
 </ui>

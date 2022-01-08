@@ -1,5 +1,11 @@
 <RCC>
     <qresource prefix="/res">
         <file>img/vzrivozaschita.png</file>
+        <file>img/developer.png</file>
+        <file>img/exit.png</file>
+    </qresource>
+    <qresource prefix="/filsRes">
+        <file>files/Ex_file.txt</file>
+        <file>files/Ip_file.txt</file>
     </qresource>
 </RCC>
